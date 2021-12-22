@@ -6,7 +6,7 @@ module.exports = {
     run: async (client, message, args) => {
         const embed = new Discord.MessageEmbed()
             .setColor('#f9ff00')
-            .setTitle("Here is a list of my commands")
+            .setTitle("Here is a list of my filters")
             .setDescription('3d, bassboost, echo, karaoke, nightcore, earwax, tremolo, phaser')
             .setFooter(`Made By TANISHQ!`)
             .setTimestamp()
